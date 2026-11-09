@@ -128,6 +128,8 @@ img{display:block;}
 .speaker .cred{font-family:var(--font-head);font-weight:600;color:var(--aqua-dark);font-size:.95rem;margin-bottom:4px;}
 .speaker .role{color:var(--muted);font-size:.92rem;margin:0;}
 .speaker .contact{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px;}
+.speaker .contact .email{color:var(--aqua-dark);font-size:.82rem;font-weight:600;text-decoration:none;}
+.speaker .contact .email:hover{text-decoration:underline;}
 .speaker .contact .li{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:var(--sapphire);color:#fff;transition:background .15s;}
 .speaker .contact .li:hover{background:var(--sapphire-dark);}
 .speaker .contact .li svg{width:14px;height:14px;fill:currentColor;}
@@ -387,6 +389,7 @@ img{display:block;}
         <div class="cred">MFT-LP</div>
         <p class="role">Senior Talent Recruiter, Brightside Health</p>
         <div class="contact">
+          <a class="email" href="mailto:eliza.philbin@brightside.com">eliza.philbin@brightside.com</a>
           <a class="li" href="https://www.linkedin.com/in/elizaphilbin/" target="_blank" rel="noopener" aria-label="Eliza Philbin on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
         </div>
       </div>
@@ -397,6 +400,7 @@ img{display:block;}
         <h3>Sarah Kolzow</h3>
         <p class="role">Senior Talent Recruiter, Brightside Health</p>
         <div class="contact">
+          <a class="email" href="mailto:sarah.kolzow@brightside.com">sarah.kolzow@brightside.com</a>
           <a class="li" href="https://www.linkedin.com/in/sarah-kolzow-33263318b/" target="_blank" rel="noopener" aria-label="Sarah Kolzow on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
         </div>
       </div>
@@ -409,7 +413,7 @@ img{display:block;}
   <div class="collective-inner">
     <div class="star" aria-hidden="true">⭐</div>
     <h2>Part of a series you won't want to miss</h2>
-    <p>This is one of Brightside's ongoing webinars for clinicians. Register today and you'll be first to hear about upcoming sessions — featuring <strong>special guest experts</strong>, insider career tips, and <strong>exclusive offers</strong> for PMHNPs and therapists.</p>
+    <p>This is one of Brightside's ongoing webinars for clinicians. Register today and you'll be first to hear about upcoming sessions — practical career guidance and insider tips from our recruiting team, built for PMHNPs and therapists.</p>
     <p>Stay informed, stay ahead, and don't miss what's next.</p>
     <a class="btn primary" href="#register">Save your spot &rarr;</a>
   </div>
@@ -559,7 +563,7 @@ img{display:block;}
       var done = document.getElementById('regDone');
       if(futureOnly){
         document.getElementById('rdTitle').textContent = "You're on the list!";
-        document.getElementById('rdIntro').innerHTML = "Thanks! We'll keep you posted about upcoming Brightside webinars for PMHNPs and therapists — including special guests and exclusive offers. Hope to see you at a future one!";
+        document.getElementById('rdIntro').innerHTML = "Thanks! We'll keep you posted about upcoming Brightside webinars for PMHNPs and therapists. Hope to see you at a future one!";
         document.getElementById('rdWhen').style.display = 'none';
         document.getElementById('rdCal').style.display = 'none';
       }
