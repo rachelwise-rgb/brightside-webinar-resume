@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume Reset: Start 2027 With a Standout Clinical Resume — Free Brightside Health Webinar</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="description" content="Free Brightside Health webinar for PMHNPs and therapists — build a standout, authentic clinical resume for 2027 with insider tips from our senior talent recruiters. December 10, 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --aqua:#39CBD5; --aqua-dark:#22a6b0;
+  --sapphire:#2E4985; --sapphire-dark:#223868;
+  --light-aqua:#E6F9FA; --light-sapphire:#F1F7FE;
+  --ink:#1f2a44; --muted:#5b6b86; --line:#e3e9f2; --white:#fff; --danger:#c0392b;
+  --radius:18px; --radius-sm:12px;
+  --shadow:0 10px 30px rgba(46,73,133,.08);
+  --shadow-lg:0 24px 60px rgba(46,73,133,.16);
+  --font-head:'Outfit','Segoe UI',Arial,sans-serif;
+  --font-body:'DM Sans','Segoe UI',Arial,sans-serif;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:var(--font-body);color:var(--ink);background:var(--light-sapphire);line-height:1.6;-webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4{font-family:var(--font-head);color:var(--sapphire);margin:0 0 .4em;line-height:1.15;}
+p{margin:0 0 1rem;}
+a{color:var(--aqua-dark);}
+img{display:block;}
+
+/* ---- top nav ---- */
+.nav{
+  position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);
+  backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:16px;padding:14px clamp(18px,5vw,48px);
+}
+.nav .logo{height:34px;}
+.nav .spacer{flex:1;}
+.nav .navcta{
+  font-family:var(--font-head);font-weight:600;font-size:.95rem;text-decoration:none;
+  background:var(--sapphire);color:#fff;padding:10px 20px;border-radius:999px;
+  transition:background .15s,transform .08s;
+}
+.nav .navcta:hover{background:var(--sapphire-dark);}
+.nav .navcta:active{transform:translateY(1px);}
+
+/* ---- hero ---- */
+.hero{
+  position:relative;overflow:hidden;
+  background:radial-gradient(1200px 500px at 85% -10%,rgba(57,203,213,.35),transparent 60%),
+             linear-gradient(140deg,var(--sapphire) 0%,var(--sapphire-dark) 70%);
+  color:#fff;padding:clamp(38px,6vw,68px) clamp(20px,6vw,64px) clamp(50px,6vw,80px);
+}
+.hero::before{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;
+  background:radial-gradient(circle,rgba(57,203,213,.45),transparent 70%);pointer-events:none;}
+.hero::after{content:"";position:absolute;left:-80px;bottom:-140px;width:340px;height:340px;border-radius:50%;
+  background:radial-gradient(circle,rgba(57,203,213,.18),transparent 70%);pointer-events:none;}
+.hero-inner{position:relative;max-width:1080px;margin:0 auto;}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:9px;font-family:var(--font-head);font-weight:700;
+  letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;color:var(--aqua);
+  background:rgba(57,203,213,.14);border:1px solid rgba(57,203,213,.45);
+  padding:7px 16px;border-radius:999px;margin-bottom:18px;
+}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--aqua);box-shadow:0 0 0 4px rgba(57,203,213,.25);}
+.hero h1{color:#fff;font-size:clamp(2rem,5vw,3.3rem);font-weight:800;letter-spacing:-.01em;max-width:20ch;margin-bottom:.3em;}
+.hero h1 .wow{color:var(--aqua);}
+.hero .lede{color:rgba(255,255,255,.86);font-size:clamp(1.02rem,2vw,1.25rem);max-width:60ch;margin-bottom:28px;}
+.hero-cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center;}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;
+  font-family:var(--font-head);font-weight:700;font-size:1.1rem;text-decoration:none;
+  padding:17px 36px;border-radius:999px;border:none;transition:transform .08s,background .15s,box-shadow .15s,color .15s;
+}
+.btn.primary{background:var(--aqua);color:var(--sapphire-dark);box-shadow:0 10px 26px rgba(57,203,213,.35);}
+.btn.primary:hover{background:#fff;color:var(--sapphire);}
+.btn.solid{background:var(--sapphire);color:#fff;}
+.btn.solid:hover{background:var(--sapphire-dark);color:#fff;}
+.btn.line{background:#fff;color:var(--sapphire);border:1.5px solid var(--line);}
+.btn.line:hover{border-color:var(--aqua);background:var(--light-aqua);}
+.btn:active{transform:translateY(1px);}
+
+/* ---- key facts strip ---- */
+.facts{
+  position:relative;z-index:5;max-width:1080px;margin:-52px auto 0;padding:0 clamp(20px,6vw,64px);
+  display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+}
+.fact{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px 24px;
+  box-shadow:var(--shadow);display:flex;gap:14px;align-items:flex-start;
+}
+.fact .ic{flex:0 0 auto;width:44px;height:44px;border-radius:12px;background:var(--light-aqua);
+  display:grid;place-items:center;color:var(--sapphire);}
+.fact .ic svg{width:22px;height:22px;}
+.fact .k{font-family:var(--font-head);font-weight:500;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px;}
+.fact .v{font-family:var(--font-head);font-weight:700;color:var(--sapphire);font-size:1.02rem;line-height:1.3;}
+.fact .v small{display:block;font-weight:500;color:var(--muted);font-size:.85rem;}
+
+/* ---- sections ---- */
+.section{max-width:1080px;margin:0 auto;padding:clamp(56px,8vw,90px) clamp(20px,6vw,64px) 0;}
+.section-head{max-width:60ch;margin-bottom:34px;}
+.section-head .tag{font-family:var(--font-head);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem;color:var(--aqua-dark);margin-bottom:8px;display:block;}
+.section-head h2{font-size:clamp(1.6rem,3vw,2.15rem);font-weight:800;}
+.section-head p{color:var(--muted);font-size:1.08rem;}
+
+/* learn grid */
+.learn{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+.learn .item{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;box-shadow:var(--shadow);transition:transform .15s,box-shadow .15s;}
+.learn .item:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);}
+.learn .item .n{width:46px;height:46px;border-radius:12px;background:var(--sapphire);color:var(--aqua);
+  font-family:var(--font-head);font-weight:800;font-size:1.2rem;display:grid;place-items:center;margin-bottom:16px;}
+.learn .item h3{font-size:1.18rem;margin-bottom:.3em;}
+.learn .item p{color:var(--muted);font-size:.98rem;margin:0;}
+
+/* speakers */
+.speakers{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
+.speaker{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);display:flex;gap:20px;align-items:center;}
+.speaker .avatar{position:relative;flex:0 0 auto;width:96px;height:96px;border-radius:50%;overflow:hidden;
+  background:linear-gradient(140deg,var(--aqua),var(--sapphire));color:#fff;
+  display:grid;place-items:center;font-family:var(--font-head);font-weight:800;font-size:1.8rem;
+  border:3px solid var(--aqua);}
+.speaker .avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.speaker h3{margin-bottom:2px;font-size:1.28rem;}
+.speaker .cred{font-family:var(--font-head);font-weight:600;color:var(--aqua-dark);font-size:.95rem;margin-bottom:4px;}
+.speaker .role{color:var(--muted);font-size:.92rem;margin:0;}
+.speaker .contact{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px;}
+.speaker .contact .li{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:6px;background:var(--sapphire);color:#fff;transition:background .15s;}
+.speaker .contact .li:hover{background:var(--sapphire-dark);}
+.speaker .contact .li svg{width:14px;height:14px;fill:currentColor;}
+
+/* register / form */
+.register{scroll-margin-top:80px;}
+.form-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-lg);padding:clamp(24px,4vw,42px);}
+.bonus{margin-top:20px;background:var(--light-aqua);border:1.5px solid var(--aqua);border-radius:var(--radius);padding:22px 26px;}
+.bonus .bonus-tag{display:inline-block;font-family:var(--font-head);font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:.72rem;color:var(--aqua-dark);margin-bottom:7px;}
+.bonus p{margin:0;color:var(--ink);font-size:.96rem;line-height:1.55;}
+.bonus strong{color:var(--sapphire);}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;}
+.field{margin-bottom:22px;}
+.field label{display:block;font-family:var(--font-head);font-weight:600;color:var(--sapphire);font-size:1rem;margin-bottom:7px;}
+.field .req{color:var(--aqua-dark);}
+.field .hint{display:block;font-family:var(--font-body);font-weight:400;color:var(--muted);font-size:.85rem;margin:-2px 0 8px;}
+.field input[type=text],.field input[type=email],.field textarea{
+  width:100%;padding:13px 15px;border:1.5px solid var(--line);border-radius:var(--radius-sm);
+  font-family:var(--font-body);font-size:1rem;color:var(--ink);background:#fff;transition:border-color .15s,box-shadow .15s;}
+.field textarea{min-height:118px;resize:vertical;line-height:1.55;}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--aqua);box-shadow:0 0 0 3px rgba(57,203,213,.25);}
+.field input.invalid,.field textarea.invalid{border-color:var(--danger);box-shadow:0 0 0 3px rgba(192,57,43,.12);}
+.radio-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.radio-card{display:flex;gap:11px;align-items:flex-start;border:1.5px solid var(--line);border-radius:var(--radius-sm);padding:13px 15px;cursor:pointer;transition:border-color .15s,background .15s,box-shadow .15s;}
+.radio-card:hover{border-color:var(--aqua);}
+.radio-card.sel{border-color:var(--aqua);background:var(--light-aqua);box-shadow:0 0 0 2px rgba(57,203,213,.28);}
+.radio-card input{margin-top:2px;accent-color:var(--sapphire);flex:0 0 auto;}
+.radio-card span{font-size:.95rem;line-height:1.35;}
+.state-opt{display:flex;gap:11px;align-items:center;border:1.5px solid var(--line);border-radius:var(--radius-sm);padding:12px 15px;cursor:pointer;margin-bottom:12px;transition:border-color .15s,background .15s;font-size:.95rem;}
+.state-opt:hover{border-color:var(--aqua);}
+.state-opt.sel{border-color:var(--aqua);background:var(--light-aqua);}
+.state-opt input{accent-color:var(--sapphire);}
+.state-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px 14px;margin-top:4px;}
+.state-grid.disabled{opacity:.4;pointer-events:none;}
+.state-grid label{display:flex;gap:8px;align-items:center;font-family:var(--font-body);font-weight:400;font-size:.9rem;color:var(--ink);cursor:pointer;}
+.state-grid input{accent-color:var(--sapphire);flex:0 0 auto;}
+.cond-wrap{margin-top:11px;}
+.field-error{color:var(--danger);font-size:.85rem;margin-top:6px;font-family:var(--font-body);}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+.form-foot{margin-top:8px;display:flex;flex-wrap:wrap;gap:14px 18px;align-items:center;}
+.form-foot .submit-note{color:var(--muted);font-size:.85rem;max-width:34ch;}
+.btn[disabled]{opacity:.6;cursor:not-allowed;}
+.form-alert{display:none;background:#fbeae7;color:var(--danger);border-radius:var(--radius-sm);padding:12px 16px;font-size:.92rem;margin-bottom:18px;}
+.reg-alt{text-align:center;color:var(--muted);font-size:.95rem;margin:20px auto 0;max-width:52ch;}
+.reg-alt a{color:var(--aqua-dark);font-weight:600;}
+@media (max-width:560px){.radio-cards{grid-template-columns:1fr;}.row2{grid-template-columns:1fr;}}
+
+/* post-submit confirmation */
+.register-done{display:none;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-lg);padding:clamp(36px,6vw,56px) clamp(24px,5vw,44px);text-align:center;}
+.register-done .rd-check{width:66px;height:66px;border-radius:50%;background:var(--light-aqua);color:var(--aqua-dark);font-size:2rem;font-weight:800;display:grid;place-items:center;margin:0 auto 18px;border:3px solid var(--aqua);}
+.register-done h2{font-size:clamp(1.6rem,3.5vw,2.3rem);font-weight:800;margin-bottom:.3em;}
+.register-done p{color:var(--muted);max-width:54ch;margin:0 auto 1rem;}
+.register-done .rd-when{font-family:var(--font-head);font-weight:700;color:var(--sapphire);font-size:1.05rem;}
+.cal-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:24px 0 6px;}
+.register-done .rd-note{font-size:.88rem;margin-top:16px;}
+
+/* series band */
+.collective{background:linear-gradient(140deg,var(--sapphire) 0%,var(--sapphire-dark) 75%);color:#fff;margin-top:clamp(64px,9vw,110px);position:relative;overflow:hidden;}
+.collective::before{content:"";position:absolute;right:-100px;top:-100px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(57,203,213,.35),transparent 70%);}
+.collective-inner{position:relative;max-width:920px;margin:0 auto;padding:clamp(48px,7vw,80px) clamp(20px,6vw,64px);text-align:center;}
+.collective .star{font-size:2.2rem;margin-bottom:6px;}
+.collective h2{color:#fff;font-size:clamp(1.6rem,3.5vw,2.3rem);font-weight:800;}
+.collective p{color:rgba(255,255,255,.86);max-width:62ch;margin:0 auto 1rem;font-size:1.06rem;}
+.collective .btn.primary{margin-top:14px;}
+
+/* footer */
+.foot{background:var(--sapphire-dark);color:rgba(255,255,255,.7);text-align:center;padding:30px 20px;font-size:.9rem;}
+.foot img{height:26px;margin:0 auto 12px;opacity:.95;}
+.foot a{color:var(--aqua);text-decoration:none;}
+.foot a:hover{text-decoration:underline;}
+.foot .fine{font-size:.8rem;color:rgba(255,255,255,.5);margin-top:10px;}
+
+@media (max-width:860px){
+  .facts{grid-template-columns:1fr;margin-top:-36px;}
+  .learn{grid-template-columns:1fr;}
+  .speakers{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <a href="https://www.brightside.com/" target="_blank" rel="noopener" aria-label="Brightside Health home"><img class="logo" src="logo.svg" alt="Brightside Health"></a>
+  <span class="spacer"></span>
+  <a class="navcta" href="#register">Register here</a>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow"><span class="dot"></span>Free Online Webinar · For PMHNPs &amp; Therapists</span>
+    <h1><span class="wow">Resume Reset:</span> Start 2027 With a Standout Clinical Resume</h1>
+    <p class="lede">With AI-generated resumes everywhere, the clinicians who stand out are the ones who show what makes them <em>them</em>. Join our senior talent recruiters for resume best practices, common mistakes to avoid, and an inside look at what makes a clinical resume rise to the top.</p>
+    <div class="hero-cta">
+      <a class="btn primary" href="#register">Save my spot &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- KEY FACTS -->
+<section class="facts" aria-label="Event details">
+  <div class="fact">
+    <div class="ic" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+    </div>
+    <div><div class="k">Date</div><div class="v">Thursday, December 10, 2026</div></div>
+  </div>
+  <div class="fact">
+    <div class="ic" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+    </div>
+    <div><div class="k">Time</div><div class="v">2:00–2:45 PM ET<small>11:00–11:45 AM PT</small></div></div>
+  </div>
+  <div class="fact">
+    <div class="ic" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 10l4.5-2.6a1 1 0 0 1 1.5.87v7.46a1 1 0 0 1-1.5.87L15 14"/><rect x="3" y="6" width="12" height="12" rx="2"/></svg>
+    </div>
+    <div><div class="k">Location</div><div class="v">Live on Zoom<small>Link emailed after you register</small></div></div>
+  </div>
+</section>
+
+<!-- REGISTER -->
+<section class="section register" id="register">
+  <div class="section-head">
+    <span class="tag">Reserve your seat</span>
+    <h2>Register for the webinar</h2>
+    <p>Complete the short form below to save your spot. Our speakers will open the floor for a live Q&amp;A — feel free to share your resume questions ahead of time!</p>
+  </div>
+
+  <form class="form-card" id="regForm" novalidate>
+    <div class="form-alert" id="formAlert">Something went wrong sending your registration. Please try again, or email talent@brightside.com.</div>
+
+    <div class="row2">
+      <div class="field">
+        <label for="f-name">Full name <span class="req">*</span></label>
+        <input type="text" id="f-name" name="name" autocomplete="name" required>
+        <div class="field-error" hidden>Please enter your name.</div>
+      </div>
+
+      <div class="field">
+        <label for="f-email">Email <span class="req">*</span></label>
+        <input type="email" id="f-email" name="email" autocomplete="email" required>
+        <div class="field-error" hidden>Please enter a valid email so we can send your Zoom link.</div>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Which best describes you? <span class="req">*</span></label>
+      <div class="radio-cards" id="roleCards">
+        <label class="radio-card"><input type="radio" name="role" value="PMHNP"><span>PMHNP</span></label>
+        <label class="radio-card"><input type="radio" name="role" value="PMHNP student"><span>PMHNP student</span></label>
+        <label class="radio-card"><input type="radio" name="role" value="Licensed therapist"><span>Licensed therapist</span></label>
+        <label class="radio-card"><input type="radio" name="role" value="Therapist associate"><span>Therapist associate</span></label>
+        <label class="radio-card"><input type="radio" name="role" value="Therapist student"><span>Therapist student</span></label>
+        <label class="radio-card"><input type="radio" name="role" value="Other"><span>Other</span></label>
+      </div>
+      <div class="cond-wrap" id="roleOtherWrap" hidden>
+        <input type="text" id="f-roleOther" name="roleOther" placeholder="Tell us your role">
+      </div>
+      <div class="field-error" hidden>Please choose the option that best describes you.</div>
+    </div>
+
+    <div class="field">
+      <label>How did you hear about this event? <span class="req">*</span></label>
+      <div class="radio-cards" id="heardCards">
+        <label class="radio-card"><input type="radio" name="heard" value="LinkedIn"><span>LinkedIn</span></label>
+        <label class="radio-card"><input type="radio" name="heard" value="Associate Therapist Collective"><span>Associate Therapist Collective</span></label>
+        <label class="radio-card"><input type="radio" name="heard" value="PMHNP Licensing Support Network"><span>PMHNP Licensing Support Network</span></label>
+        <label class="radio-card"><input type="radio" name="heard" value="University program"><span>University program</span></label>
+        <label class="radio-card"><input type="radio" name="heard" value="Friend/Colleague"><span>Friend / Colleague</span></label>
+        <label class="radio-card"><input type="radio" name="heard" value="Other"><span>Other</span></label>
+      </div>
+      <div class="cond-wrap" id="otherWrap" hidden>
+        <input type="text" id="f-other" name="heardOther" placeholder="Tell us how you heard about it">
+      </div>
+      <div class="field-error" hidden>Please choose an option.</div>
+    </div>
+
+    <div class="field">
+      <label for="f-states">Which state(s) are you licensed in or pursuing?</label>
+      <input type="text" id="f-states" name="states" placeholder="e.g. CA, NY, TX">
+    </div>
+
+    <div class="field">
+      <label for="f-questions">What resume questions do you have?</label>
+      <span class="hint">Our recruiters open the floor for a live Q&amp;A — share what you'd like covered and we'll do our best to get to it.</span>
+      <textarea id="f-questions" name="questions"></textarea>
+    </div>
+
+    <!-- spam honeypot: humans never see or fill this -->
+    <div class="hp" aria-hidden="true"><label>Company<input type="text" name="company" tabindex="-1" autocomplete="off"></label></div>
+
+    <div class="form-foot">
+      <button type="submit" class="btn solid" id="regSubmit">Save my spot &rarr;</button>
+      <button type="button" class="btn line" id="futureBtn">Can't make it? Add me for future sessions</button>
+    </div>
+    <p class="submit-note" style="color:var(--muted);font-size:.85rem;margin:14px 0 0;">Your Zoom link is emailed to you right after you register.</p>
+  </form>
+
+  <!-- shown automatically once the form is submitted -->
+  <div class="register-done" id="regDone" role="status">
+    <div class="rd-check" aria-hidden="true">✓</div>
+    <h2 id="rdTitle">You're registered!</h2>
+    <p id="rdIntro">Thanks for signing up for <strong>Resume Reset: Start 2027 With a Standout Clinical Resume</strong>. Add it to your calendar below — your <strong>Zoom link is included</strong> — and a confirmation email with all the details is on its way to your inbox.</p>
+    <p class="rd-when" id="rdWhen">Thursday, December 10, 2026 · 2:00–2:45 PM ET (11:00–11:45 AM PT)</p>
+    <div class="cal-btns" id="rdCal">
+      <a class="btn solid" id="gcalBtn" target="_blank" rel="noopener">Add to Google Calendar</a>
+      <a class="btn line" id="icsBtn" href="#">Apple / Outlook (.ics)</a>
+    </div>
+    <p class="rd-note">Questions for our speakers? Email <a href="mailto:talent@brightside.com">talent@brightside.com</a>. Didn't get the confirmation email? Check your spam folder.</p>
+  </div>
+</section>
+
+<!-- WHAT YOU'LL LEARN -->
+<section class="section">
+  <div class="section-head">
+    <span class="tag">What you'll take away</span>
+    <h2>A resume that sounds like you — and gets noticed</h2>
+    <p>Practical, recruiter-tested guidance to help PMHNPs and therapists head into 2027 with a stronger, more effective clinical resume.</p>
+  </div>
+  <div class="learn">
+    <div class="item">
+      <div class="n">1</div>
+      <h3>Stand out in an AI-generated world</h3>
+      <p>How to differentiate yourself by authentically highlighting your clinical experience, credentials, and professional accomplishments.</p>
+    </div>
+    <div class="item">
+      <div class="n">2</div>
+      <h3>Clinical resume best practices</h3>
+      <p>Structure, formatting, and the details that make your experience easy to scan and hard to forget.</p>
+    </div>
+    <div class="item">
+      <div class="n">3</div>
+      <h3>Common mistakes to avoid</h3>
+      <p>The missteps recruiters see most often — and simple fixes that make an immediate difference.</p>
+    </div>
+    <div class="item">
+      <div class="n">4</div>
+      <h3>Insights straight from recruiters</h3>
+      <p>What makes a clinical resume stand out from the hiring side — plus a live Q&amp;A to ask our speakers anything.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SPEAKERS -->
+<section class="section">
+  <div class="section-head">
+    <span class="tag">Who you'll learn from</span>
+    <h2>Meet your speakers</h2>
+  </div>
+  <div class="speakers">
+    <div class="speaker">
+      <div class="avatar"><span class="ini">EP</span><img src="eliza.jpg" alt="Eliza Philbin" onerror="this.style.display='none'"></div>
+      <div>
+        <h3>Eliza Philbin</h3>
+        <div class="cred">MFT-LP</div>
+        <p class="role">Senior Talent Recruiter, Brightside Health</p>
+        <div class="contact">
+          <a class="li" href="https://www.linkedin.com/in/elizaphilbin/" target="_blank" rel="noopener" aria-label="Eliza Philbin on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="speaker">
+      <div class="avatar"><span class="ini">SK</span><img src="sarah.jpg" alt="Sarah Kolzow" onerror="this.style.display='none'"></div>
+      <div>
+        <h3>Sarah Kolzow</h3>
+        <p class="role">Senior Talent Recruiter, Brightside Health</p>
+        <div class="contact">
+          <a class="li" href="https://www.linkedin.com/in/sarah-kolzow-33263318b/" target="_blank" rel="noopener" aria-label="Sarah Kolzow on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERIES BAND -->
+<section class="collective">
+  <div class="collective-inner">
+    <div class="star" aria-hidden="true">⭐</div>
+    <h2>Part of a series you won't want to miss</h2>
+    <p>This is one of Brightside's ongoing webinars for clinicians. Register today and you'll be first to hear about upcoming sessions — featuring <strong>special guest experts</strong>, insider career tips, and <strong>exclusive offers</strong> for PMHNPs and therapists.</p>
+    <p>Stay informed, stay ahead, and don't miss what's next.</p>
+    <a class="btn primary" href="#register">Save your spot &rarr;</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="foot">
+  <a href="https://www.brightside.com/" target="_blank" rel="noopener" aria-label="Brightside Health home"><img src="logo-white.svg" alt="Brightside Health"></a>
+  <p>Questions? Email <a href="mailto:talent@brightside.com">talent@brightside.com</a>.</p>
+  <p class="fine">This webinar does not count for CEUs. &copy; 2026 Brightside Health.</p>
+</footer>
+
+<script>
+(function(){
+  /* ===== Registration endpoint =====
+     Paste the NEW Google Apps Script Web App URL here (ends in /exec) — the one
+     from docs-local/brightside-resume-registrations.gs, which writes to the
+     "Resume Reset 12/2026" tab. Until then the form shows its confirmation
+     but does NOT save anything. */
+  var REG_ENDPOINT = "PASTE_RESUME_RESET_EXEC_URL_HERE";
+
+  /* ===== Event details (Add-to-Calendar) =====
+     Times are UTC. Dec 10 2026, 2:00–2:45 PM ET (EST, UTC-5) = 19:00–19:45 UTC. */
+  var ZOOM = "https://brightside.zoom.us/j/83447112061";
+  var EVENT = {
+    title: "Resume Reset: Start 2027 With a Standout Clinical Resume — Brightside Health Webinar",
+    startUtc: "20261210T190000Z",
+    endUtc: "20261210T194500Z",
+    zoom: ZOOM,
+    details: "You're all set! Join Brightside Health's senior talent recruiters for a free webinar on building a standout clinical resume for 2027 — how to authentically highlight your clinical experience, credentials, and accomplishments in an AI-generated world, plus best practices and common mistakes to avoid. Come with your questions for the live Q&A!\n\nJoin on Zoom: " + ZOOM + "\n\nQuestions? Email talent@brightside.com"
+  };
+
+  function wireCalendar(){
+    var gcal = "https://calendar.google.com/calendar/render?action=TEMPLATE"
+      + "&text=" + encodeURIComponent(EVENT.title)
+      + "&dates=" + EVENT.startUtc + "/" + EVENT.endUtc
+      + "&details=" + encodeURIComponent(EVENT.details)
+      + "&location=" + encodeURIComponent(EVENT.zoom);
+    var gb = document.getElementById('gcalBtn');
+    if(gb){ gb.href = gcal; }
+    var ib = document.getElementById('icsBtn');
+    if(ib){
+      ib.addEventListener('click', function(ev){
+        ev.preventDefault();
+        var ics = [
+          "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Brightside Health//Webinar//EN",
+          "CALSCALE:GREGORIAN","METHOD:PUBLISH","BEGIN:VEVENT",
+          "UID:resume-reset-2026-12-10@brightside.com",
+          "DTSTAMP:" + EVENT.startUtc, "DTSTART:" + EVENT.startUtc, "DTEND:" + EVENT.endUtc,
+          "SUMMARY:" + EVENT.title,
+          "DESCRIPTION:" + EVENT.details.replace(/\n/g, "\\n"),
+          "LOCATION:" + EVENT.zoom, "STATUS:CONFIRMED", "END:VEVENT", "END:VCALENDAR"
+        ].join("\r\n");
+        var blob = new Blob([ics], {type: "text/calendar;charset=utf-8"});
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url; a.download = "brightside-resume-reset-webinar.ics";
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+        setTimeout(function(){ URL.revokeObjectURL(url); }, 1500);
+      });
+    }
+  }
+  wireCalendar();
+
+  var form   = document.getElementById('regForm');
+  var alertB = document.getElementById('formAlert');
+  var submit = document.getElementById('regSubmit');
+  if(!form) return;
+
+  /* "which best describes you" radio-cards + conditional "Other" field */
+  var roleCards     = document.getElementById('roleCards');
+  var roleOtherWrap = document.getElementById('roleOtherWrap');
+  roleCards.addEventListener('change', function(){
+    roleCards.querySelectorAll('.radio-card').forEach(function(c){
+      c.classList.toggle('sel', c.querySelector('input').checked);
+    });
+    var val = (form.querySelector('input[name=role]:checked')||{}).value;
+    roleOtherWrap.hidden = (val !== 'Other');
+    var rErr = roleCards.parentElement.querySelector('.field-error'); if(rErr) rErr.hidden = true;
+  });
+
+  /* "how did you hear" radio-cards + conditional "Other" field */
+  var heardCards = document.getElementById('heardCards');
+  var otherWrap  = document.getElementById('otherWrap');
+  heardCards.addEventListener('change', function(){
+    heardCards.querySelectorAll('.radio-card').forEach(function(c){
+      c.classList.toggle('sel', c.querySelector('input').checked);
+    });
+    var val = (form.querySelector('input[name=heard]:checked')||{}).value;
+    otherWrap.hidden = (val !== 'Other');
+    var hErr = heardCards.parentElement.querySelector('.field-error'); if(hErr) hErr.hidden = true;
+  });
+
+  function setInvalid(input, on){
+    input.classList.toggle('invalid', on);
+    var e = input.parentElement.querySelector('.field-error'); if(e) e.hidden = !on;
+  }
+
+  function validate(full){
+    var ok = true;
+    ['f-name','f-email'].forEach(function(id){
+      var el = document.getElementById(id);
+      var bad = !el.value.trim() || (el.type==='email' && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value.trim()));
+      setInvalid(el, bad); if(bad) ok = false;
+    });
+    if(full){
+      [roleCards, heardCards].forEach(function(group){
+        var name = group === roleCards ? 'role' : 'heard';
+        var picked = form.querySelector('input[name=' + name + ']:checked');
+        var err = group.parentElement.querySelector('.field-error');
+        if(err) err.hidden = !!picked;
+        if(!picked) ok = false;
+      });
+    }
+    return ok;
+  }
+
+  var futureBtn = document.getElementById('futureBtn');
+
+  function submitForm(futureOnly){
+    alertB.style.display = 'none';
+    if(!validate(!futureOnly)){
+      var firstBad = form.querySelector('.invalid, .field-error:not([hidden])');
+      if(firstBad) firstBad.scrollIntoView({behavior:'smooth', block:'center'});
+      return;
+    }
+    if(form.company && form.company.value){ return; } /* honeypot */
+
+    var roleVal  = (form.querySelector('input[name=role]:checked')||{}).value || '';
+    var heardVal = (form.querySelector('input[name=heard]:checked')||{}).value || '';
+    var payload = {
+      name: form.name.value.trim(),
+      email: form.email.value.trim(),
+      role: roleVal === 'Other' ? ('Other: ' + form.roleOther.value.trim()) : roleVal,
+      heard: heardVal === 'Other' ? ('Other: ' + form.heardOther.value.trim()) : heardVal,
+      states: form.states.value.trim(),
+      questions: form.questions.value.trim(),
+      futureOnly: !!futureOnly,
+      page: location.href
+    };
+
+    submit.disabled = true; futureBtn.disabled = true;
+    (futureOnly ? futureBtn : submit).textContent = futureOnly ? 'Adding you…' : 'Registering…';
+
+    var showSuccess = function(){
+      form.style.display = 'none';
+      var done = document.getElementById('regDone');
+      if(futureOnly){
+        document.getElementById('rdTitle').textContent = "You're on the list!";
+        document.getElementById('rdIntro').innerHTML = "Thanks! We'll keep you posted about upcoming Brightside webinars for PMHNPs and therapists — including special guests and exclusive offers. Hope to see you at a future one!";
+        document.getElementById('rdWhen').style.display = 'none';
+        document.getElementById('rdCal').style.display = 'none';
+      }
+      done.style.display = 'block';
+      done.scrollIntoView({behavior:'smooth', block:'start'});
+    };
+    var showError = function(){
+      submit.disabled = false; futureBtn.disabled = false;
+      submit.innerHTML = 'Save my spot &rarr;';
+      futureBtn.textContent = "Can't make it? Add me for future sessions";
+      alertB.style.display = 'block';
+      alertB.scrollIntoView({behavior:'smooth', block:'center'});
+    };
+
+    if(REG_ENDPOINT.indexOf('http') !== 0){
+      console.warn('REG_ENDPOINT not set — registration was not saved.');
+      showSuccess();
+      return;
+    }
+
+    fetch(REG_ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: {'Content-Type': 'text/plain;charset=utf-8'},
+      body: JSON.stringify(payload)
+    }).then(showSuccess).catch(showError);
+  }
+
+  form.addEventListener('submit', function(ev){ ev.preventDefault(); submitForm(false); });
+  futureBtn.addEventListener('click', function(){ submitForm(true); });
+})();
+</script>
+
+</body>
+</html>
